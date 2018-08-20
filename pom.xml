@@ -26,16 +26,16 @@
 	</properties>
 
 	<distributionManagement>
-		<repository>
-			<id>release</id>
-			<name>releases</name>
-			<url>http://localhost:8082/repository/devops2/</url>
-		</repository>
-		<snapshotRepository>
-			<id>snapshot</id>
-			<name>snapshots</name>
-			<url>http://localhost:8082/repository/devops/</url>
-		</snapshotRepository>
+  <repository>
+    <id>2</id>
+    <url>http://192.168.133.170:8082/nexus/content/repositories/2</url>
+  </repository>
+</distributionManagement>
+  <snapshotRepository>
+    <id>1</id>
+    <url>http://localhost:8082/nexus/content/repositories/1</url>
+  </snapshotRepository>
+</distributionManagement>
 	</distributionManagement>
 
 	<scm>
