@@ -28,15 +28,15 @@
 	<distributionManagement>
   <repository>
     <id>2</id>
-    <url>http://192.168.133.170:8082/nexus/content/repositories/2</url>
+    <url>http://localhost:8082/nexus/content/repositories/2</url>
   </repository>
-</distributionManagement>
+
   <snapshotRepository>
     <id>1</id>
     <url>http://localhost:8082/nexus/content/repositories/1</url>
   </snapshotRepository>
 </distributionManagement>
-	</distributionManagement>
+
 
 	<scm>
 		<connection>scm:git:git@github.com:nandudemy/devops.git</connection>
